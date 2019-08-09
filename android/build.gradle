@@ -43,8 +43,6 @@ android {
 }
 
 dependencies {
-    def firebaseVersion = project.hasProperty('firebaseVersion') ? project.firebaseVersion : DEFAULT_FIREBASE_MESSAGING_VERSION
-
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
     implementation "androidx.appcompat:appcompat:1.0.0"
